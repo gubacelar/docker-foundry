@@ -11,4 +11,4 @@ RUN unzip /tmp/foundry.zip -d /foundryvtt && rm /tmp/foundry.zip
 
 EXPOSE 30000
 
-CMD ["node", "main.mjs"]
+CMD ["node", "main.mjs", "--dataPath=/home/foundry/data"]
