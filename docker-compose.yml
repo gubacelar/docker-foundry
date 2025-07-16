@@ -1,0 +1,9 @@
+services:
+  foundry:
+    build: .
+    container_name: foundry-vtt
+    ports:
+      - "30000:30000"
+    volumes:
+      - ./data:/root/.local/share/FoundryVTT
+    restart: unless-stopped

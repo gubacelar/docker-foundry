@@ -27,16 +27,8 @@ This repository provides a ready-to-use Docker environment to run **Foundry Virt
 - Download the **Node.js version** of Foundry VTT (`FoundryVTT-Node-XX.zip`)
 - Do **not** extract it — just copy the `.zip` into this folder.
 
-### 2. 🚫 Add `.zip` and `data/` to `.gitignore`
 
-Example:
-
-```gitignore
-data/
-FoundryVTT-Node-*.zip
-```
-
-### 3. 🏗️ Build and run
+### 2. 🏗️ Build and run
 
 ```bash
 docker-compose build
